@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Startup - Startup Website Template</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="Free HTML Templates" name="keywords" />
+        <meta content="Free HTML Templates" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div class="spinner"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Carousel Start -->
+        <div class="container-fluid position-relative p-0">
+            <nav
+                class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0 sticky-top shadow-sm"
+            >
+                <a href="index.html" class="navbar-brand p-0">
+                    <h1 class="m-0">CreadorJuego</h1>
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                >
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link"
+                            >Inicio</a
+                        >
+                        <a href="about.html" class="nav-item nav-link active"
+                            >Noticias</a
+                        >
+                        <a href="blog.html" class="nav-item nav-link">Blog</a>
+                        <a href="service.html" class="nav-item nav-link"
+                            >Servicios</a
+                        >
+                        <a href="contact.html" class="nav-item nav-link"
+                            >Contacto</a
+                        >
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar & Carousel End -->
+
+        <!-- Full Screen Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1">
+            <div class="modal-dialog modal-fullscreen">
+                <div
+                    class="modal-content"
+                    style="background: rgba(9, 30, 62, 0.7)"
+                >
+                    <div class="modal-header border-0">
+                        <button
+                            type="button"
+                            class="btn bg-white btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div
+                        class="modal-body d-flex align-items-center justify-content-center"
+                    >
+                        <div class="input-group" style="max-width: 600px">
+                            <input
+                                type="text"
+                                class="form-control bg-transparent border-primary p-3"
+                                placeholder="Type search keyword"
+                            />
+                            <button class="btn btn-primary px-4">
+                                <i class="bi bi-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Full Screen Search End -->
+
+        <!-- Pricing Plan Start -->
+        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div
+                    class="section-title text-center position-relative pb-3 mb-5 mx-auto"
+                    style="max-width: 600px"
+                >
+                    <h5 class="fw-bold text-primary text-uppercase">
+                        ÚLTIMAS NOTICIAS
+                    </h5>
+                    <h1 class="mb-0">
+                        Manténgase informado gracias a nuestro buzón de noticias
+                    </h1>
+                </div>
+                <div class="row g-0">
+                    <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+                        <div class="bg-light rounded">
+                            <div class="border-bottom py-4 px-5 mb-4">
+                                <h4 class="text-primary mb-1">
+                                    Descubre nuestra nueva herramienta de
+                                    desarrollo móvil
+                                </h4>
+                            </div>
+                            <div class="p-5 pt-0">
+                                <p>
+                                    Estamos encantados de presentar nuestra
+                                    última herramienta de desarrollo móvil,
+                                    diseñada para agilizar y simplificar el
+                                    proceso de creación de aplicaciones. Explora
+                                    las características innovadoras que te
+                                    ayudarán a llevar tus ideas de aplicaciones
+                                    al siguiente nivel.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+                        <div
+                            class="bg-white rounded shadow position-relative"
+                            style="z-index: 1"
+                        >
+                            <div class="border-bottom py-4 px-5 mb-4">
+                                <h4 class="text-primary mb-1">
+                                    Consejos para optimizar el rendimiento de tu
+                                    aplicación móvil
+                                </h4>
+                            </div>
+                            <div class="p-5 pt-0">
+                                <p>
+                                    Aprende cómo mejorar el rendimiento de tu
+                                    aplicación móvil con nuestros consejos
+                                    expertos. Descubre estrategias para
+                                    optimizar la velocidad, la eficiencia y la
+                                    experiencia del usuario, garantizando que tu
+                                    aplicación funcione de manera fluida y
+                                    eficaz en todos los dispositivos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
+                        <div class="bg-light rounded">
+                            <div class="border-bottom py-4 px-5 mb-4">
+                                <h4 class="text-primary mb-1">
+                                    Últimas tendencias en diseño de interfaz de
+                                    usuario para aplicaciones móviles
+                                </h4>
+                            </div>
+                            <div class="p-5 pt-0">
+                                <p>
+                                    Sumérgete en las últimas tendencias en
+                                    diseño de interfaz de usuario para
+                                    aplicaciones móviles. Desde el diseño
+                                    centrado en el usuario hasta la integración
+                                    de elementos de realidad aumentada, explora
+                                    cómo puedes crear experiencias de usuario
+                                    cautivadoras y modernas para tus
+                                    aplicaciones móviles.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Pricing Plan End -->
+
+        <!-- Quote Start -->
+        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-7">
+                        <div class="section-title position-relative pb-3 mb-5">
+                            <h1 class="mb-0">
+                                Suscríbase a nuestro boletín diario y manténgase
+                                al día con nuestros boletines informativos
+                            </h1>
+                        </div>
+                        <p class="mb-4">
+                            Reciba los últimos análisis, consejos de expertos y
+                            las últimas tendencias en el mundo del desarrollo de
+                            aplicaciones móviles directamente en su bandeja de
+                            entrada. Nuestro objetivo es ayudarle a mantenerse
+                            al día de las últimas innovaciones, estrategias y
+                            mejores prácticas en el desarrollo de aplicaciones
+                            móviles. No pierda la oportunidad de mejorar sus
+                            habilidades y alcanzar nuevas cotas en el mundo del
+                            desarrollo móvil. Suscríbase ahora y comience su
+                            viaje hacia el éxito en el desarrollo de
+                            aplicaciones móviles.
+                        </p>
+                    </div>
+                    <div class="col-lg-5">
+                        <div
+                            class="bg-primary rounded h-100 d-flex align-items-center p-5 wow zoomIn"
+                            data-wow-delay="0.9s"
+                        >
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-xl-12">
+                                        <input
+                                            type="text"
+                                            class="form-control bg-light border-0"
+                                            placeholder="nombre"
+                                            style="height: 55px"
+                                        />
+                                    </div>
+                                    <div class="col-12">
+                                        <input
+                                            id="email"
+                                            type="email"
+                                            class="form-control bg-light border-0"
+                                            placeholder="correo electrónico"
+                                            style="height: 55px"
+                                        />
+                                        <div
+                                            id="result"
+                                            style="color: red"
+                                        ></div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button
+                                            id="submit"
+                                            onclick="sendForm()"
+                                            class="btn btn-dark w-100 py-3"
+                                            type="submit"
+                                        >
+                                            Suscríbase a
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Quote End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-light mt-5 wow fadeInUp"
+            data-wow-delay="0.1s"
+        >
+            <div class="container">
+                <div class="row gx-5">
+                    <div class="col-lg-12">
+                        <div class="row gx-5">
+                            <div class="col-lg-4 col-md-12 pt-5 mb-5">
+                                <div
+                                    class="section-title section-title-sm position-relative pb-3 mb-4"
+                                >
+                                    <h3 class="text-light mb-0">
+                                        Quiénes somos
+                                    </h3>
+                                    <p>
+                                        Descubre cómo nuestra experiencia en el
+                                        desarrollo de aplicaciones móviles puede
+                                        llevar tu proyecto al siguiente nivel.
+                                        Contáctanos hoy mismo para comenzar a
+                                        convertir tus ideas en realidad.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12 pt-5 mb-5">
+                                <div
+                                    class="section-title section-title-sm position-relative pb-3 mb-4"
+                                >
+                                    <h3 class="text-light mb-0">Contáctanos</h3>
+                                </div>
+                                <div class="d-flex mb-2">
+                                    <i
+                                        class="bi bi-geo-alt text-primary me-2"
+                                    ></i>
+                                    <p class="mb-0">
+                                        4XH2+PPX, la na parroquia Miguel peña
+                                        Valencia, Calle, Valencia 2001,
+                                        Carabobo, Venesuela
+                                    </p>
+                                </div>
+                                <div class="d-flex mb-2">
+                                    <i
+                                        class="bi bi-envelope-open text-primary me-2"
+                                    ></i>
+                                    <p class="mb-0">creador_juego@gmail.com</p>
+                                </div>
+                                <div class="d-flex mb-2">
+                                    <i
+                                        class="bi bi-telephone text-primary me-2"
+                                    ></i>
+                                    <p class="mb-0">+584126908045</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                                <div
+                                    class="section-title section-title-sm position-relative pb-3 mb-4"
+                                >
+                                    <h3 class="text-light mb-0">
+                                        Enlaces rápidos
+                                    </h3>
+                                </div>
+                                <div
+                                    class="link-animated d-flex flex-column justify-content-start"
+                                >
+                                    <a class="text-light mb-2" href="index.html"
+                                        ><i
+                                            class="bi bi-arrow-right text-primary me-2"
+                                        ></i
+                                        >Inicio</a
+                                    >
+                                    <a class="text-light mb-2" href="about.html"
+                                        ><i
+                                            class="bi bi-arrow-right text-primary me-2"
+                                        ></i
+                                        >Acerca de</a
+                                    >
+                                    <a
+                                        class="text-light mb-2"
+                                        href="service.html"
+                                        ><i
+                                            class="bi bi-arrow-right text-primary me-2"
+                                        ></i
+                                        >Servicios</a
+                                    >
+                                    <a
+                                        class="text-light mb-2"
+                                        href="contact.html"
+                                        ><i
+                                            class="bi bi-arrow-right text-primary me-2"
+                                        ></i
+                                        >Contacto</a
+                                    >
+                                    <a
+                                        class="text-light mb-2"
+                                        href="privacy-policy.html"
+                                        ><i
+                                            class="bi bi-arrow-right text-primary me-2"
+                                        ></i
+                                        >Política de privacidad</a
+                                    >
+                                    <a
+                                        class="text-light"
+                                        href="terms-of-use.html"
+                                        ><i
+                                            class="bi bi-arrow-right text-primary me-2"
+                                        ></i
+                                        >Términos de uso</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">
+                    Consentimiento para el uso de cookies
+                </h2>
+            </div>
+            <div class="data">
+                <p>
+                    Este sitio web utiliza cookies para proporcionarle una
+                    experiencia de navegación más relevante y de mayor calidad
+                    en el sitio.
+                    <a href="#">Saber más...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Aceptar</button>
+                <button class="cookie-button" id="declineBtn">Rechazar</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>

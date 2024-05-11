@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>CreadorJuego</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="Free HTML Templates" name="keywords" />
+        <meta content="Free HTML Templates" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div class="spinner"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Carousel Start -->
+        <div class="container-fluid position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand p-0">
+                    <h1 class="m-0">CreadorJuego</h1>
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                >
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active"
+                            >Inicio</a
+                        >
+                        <a href="about.html" class="nav-item nav-link"
+                            >Noticias</a
+                        >
+                        <a href="blog.html" class="nav-item nav-link">Blog</a>
+                        <a href="service.html" class="nav-item nav-link"
+                            >Servicios</a
+                        >
+                        <a href="contact.html" class="nav-item nav-link"
+                            >Contacto</a
+                        >
+                    </div>
+                </div>
+            </nav>
+
+            <div
+                id="header-carousel"
+                class="carousel slide carousel-fade"
+                data-bs-ride="carousel"
+            >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img
+                            class="w-100"
+                            src="img/carousel-1.jpg"
+                            alt="Изображение"
+                        />
+                        <div
+                            class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+                        >
+                            <div class="p-3" style="max-width: 900px">
+                                <h5
+                                    class="text-white text-uppercase mb-3 animated slideInDown"
+                                >
+                                    Sumérgete en el emocionante universo del
+                                    desarrollo de aplicaciones para dispositivos
+                                    móviles. Desde la concepción de la idea
+                                    hasta el lanzamiento en las tiendas de
+                                    aplicaciones, descubre cómo convertir tus
+                                    conceptos en aplicaciones exitosas que
+                                    cautiven a millones de usuarios.
+                                </h5>
+                                <h1
+                                    class="display-1 text-white mb-md-4 animated zoomIn"
+                                >
+                                    Explora el mundo del desarrollo de
+                                    aplicaciones móviles
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            class="w-100"
+                            src="img/carousel-2.jpg"
+                            alt="Изображение"
+                        />
+                        <div
+                            class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+                        >
+                            <div class="p-3" style="max-width: 900px">
+                                <h5
+                                    class="text-white text-uppercase mb-3 animated slideInDown"
+                                >
+                                    Desarrolla aplicaciones móviles innovadoras
+                                    que cambien la forma en que las personas
+                                    interactúan con sus dispositivos. Aprende a
+                                    diseñar interfaces intuitivas, implementar
+                                    características avanzadas y optimizar el
+                                    rendimiento para ofrecer experiencias
+                                    móviles excepcionales.
+                                </h5>
+                                <h1
+                                    class="display-1 text-white mb-md-4 animated zoomIn"
+                                >
+                                    Crea experiencias móviles cautivadoras
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#header-carousel"
+                    data-bs-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">prev</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#header-carousel"
+                    data-bs-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">next</span>
+                </button>
+            </div>
+        </div>
+        <!-- Navbar & Carousel End -->
+
+        <!-- Full Screen Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1">
+            <div class="modal-dialog modal-fullscreen">
+                <div
+                    class="modal-content"
+                    style="background: rgba(9, 30, 62, 0.7)"
+                >
+                    <div class="modal-header border-0">
+                        <button
+                            type="button"
+                            class="btn bg-white btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div
+                        class="modal-body d-flex align-items-center justify-content-center"
+                    >
+                        <div class="input-group" style="max-width: 600px">
+                            <input
+                                type="text"
+                                class="form-control bg-transparent border-primary p-3"
+                                placeholder="Type search keyword"
+                            />
+                            <button class="btn btn-primary px-4">
+                                <i class="bi bi-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Full Screen Search End -->
+
+        <!-- Facts Start -->
+        <div class="container-fluid facts py-5 pt-lg-0">
+            <div class="container py-5 pt-lg-0">
+                <div class="row gx-0">
+                    <div class="col-lg-4 wow zoomIn" data-wow-delay="0.1s">
+                        <div
+                            class="bg-primary shadow d-flex align-items-center justify-content-center p-4"
+                            style="height: 150px"
+                        >
+                            <div
+                                class="bg-white d-flex align-items-center justify-content-center rounded mb-2"
+                                style="width: 60px; height: 60px"
+                            >
+                                <i class="fa fa-users text-primary"></i>
+                            </div>
+                            <div class="ps-4">
+                                <h5 class="text-white mb-0">
+                                    Clientes satisfechos
+                                </h5>
+                                <h1
+                                    class="text-white mb-0"
+                                    data-toggle="counter-up"
+                                >
+                                    712
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
+                        <div
+                            class="bg-light shadow d-flex align-items-center justify-content-center p-4"
+                            style="height: 150px"
+                        >
+                            <div
+                                class="bg-primary d-flex align-items-center justify-content-center rounded mb-2"
+                                style="width: 60px; height: 60px"
+                            >
+                                <i class="fa fa-check text-white"></i>
+                            </div>
+                            <div class="ps-4">
+                                <h5 class="text-primary mb-0">
+                                    Proyectos realizados
+                                </h5>
+                                <h1 class="mb-0" data-toggle="counter-up">
+                                    55
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
+                        <div
+                            class="bg-primary shadow d-flex align-items-center justify-content-center p-4"
+                            style="height: 150px"
+                        >
+                            <div
+                                class="bg-white d-flex align-items-center justify-content-center rounded mb-2"
+                                style="width: 60px; height: 60px"
+                            >
+                                <i class="fa fa-award text-primary"></i>
+                            </div>
+                            <div class="ps-4">
+                                <h5 class="text-white mb-0">
+                                    Premios recibidos
+                                </h5>
+                                <h1
+                                    class="text-white mb-0"
+                                    data-toggle="counter-up"
+                                >
+                                    132
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Facts Start -->
+
+        <!-- About Start -->
+        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-7">
+                        <div class="section-title position-relative pb-3 mb-5">
+                            <h5 class="fw-bold text-primary text-uppercase">
+                                SOBRE NOSOTROS
+                            </h5>
+                            <h1 class="mb-0">
+                                Conócenos: Expertos en el Desarrollo de
+                                Aplicaciones Móviles Innovadoras
+                            </h1>
+                        </div>
+                        <p class="mb-4">
+                            En nuestro equipo, nos dedicamos a la creación de
+                            aplicaciones móviles innovadoras que transforman la
+                            forma en que las personas interactúan con la
+                            tecnología. Con un enfoque en la excelencia técnica
+                            y la satisfacción del cliente, estamos comprometidos
+                            a ofrecer soluciones creativas y de vanguardia que
+                            impulsen el éxito de nuestros proyectos.
+                        </p>
+                        <div class="row g-0 mb-3">
+                            <div
+                                class="col-sm-6 wow zoomIn"
+                                data-wow-delay="0.2s"
+                            >
+                                <h5 class="mb-3">
+                                    <i class="fa fa-check text-primary me-3"></i
+                                    >Innovación
+                                </h5>
+                                <h5 class="mb-3">
+                                    <i class="fa fa-check text-primary me-3"></i
+                                    >Experiencia
+                                </h5>
+                            </div>
+                            <div
+                                class="col-sm-6 wow zoomIn"
+                                data-wow-delay="0.4s"
+                            >
+                                <h5 class="mb-3">
+                                    <i class="fa fa-check text-primary me-3"></i
+                                    >Personalización
+                                </h5>
+                                <h5 class="mb-3">
+                                    <i class="fa fa-check text-primary me-3"></i
+                                    >Soporte
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5" style="min-height: 500px">
+                        <div class="position-relative h-100">
+                            <img
+                                class="position-absolute w-100 h-100 rounded wow zoomIn"
+                                data-wow-delay="0.9s"
+                                src="img/about.jpg"
+                                style="object-fit: cover"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Features Start -->
+        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div
+                    class="section-title text-center position-relative pb-3 mb-5 mx-auto"
+                    style="max-width: 600px"
+                >
+                    <h5 class="fw-bold text-primary text-uppercase">
+                        Por qué elegirnos
+                    </h5>
+                    <h1 class="mb-0">
+                        Razones para elegirnos como tu socio en el Desarrollo de
+                        Aplicaciones Móviles Innovadoras
+                    </h1>
+                </div>
+                <div class="row g-5">
+                    <div class="col-lg-4">
+                        <div class="row g-5">
+                            <div
+                                class="col-12 wow zoomIn"
+                                data-wow-delay="0.2s"
+                            >
+                                <div
+                                    class="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
+                                    style="width: 60px; height: 60px"
+                                >
+                                    <i class="fa fa-cubes text-white"></i>
+                                </div>
+                                <h4>Experiencia enriquecedora</h4>
+                                <p class="mb-0">
+                                    Contamos con años de experiencia en el
+                                    desarrollo de aplicaciones móviles que nos
+                                    han permitido perfeccionar nuestras
+                                    habilidades y comprender a fondo las
+                                    necesidades del mercado. Nuestro equipo
+                                    experto está capacitado para abordar
+                                    cualquier desafío y entregar soluciones de
+                                    calidad que impulsen el éxito de tu
+                                    proyecto.
+                                </p>
+                            </div>
+                            <div
+                                class="col-12 wow zoomIn"
+                                data-wow-delay="0.6s"
+                            >
+                                <div
+                                    class="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
+                                    style="width: 60px; height: 60px"
+                                >
+                                    <i class="fa fa-award text-white"></i>
+                                </div>
+                                <h4>Enfoque centrado en el usuario:</h4>
+                                <p class="mb-0">
+                                    Nuestro enfoque principal es el usuario. Nos
+                                    esforzamos por comprender a fondo las
+                                    necesidades y expectativas de tus usuarios
+                                    finales para crear experiencias móviles que
+                                    no solo sean funcionales, sino también
+                                    atractivas y fáciles de usar. Ponemos al
+                                    usuario en el centro de cada decisión de
+                                    diseño y desarrollo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 wow zoomIn"
+                        data-wow-delay="0.9s"
+                        style="min-height: 350px"
+                    >
+                        <div class="position-relative h-100">
+                            <img
+                                class="position-absolute w-100 h-100 rounded wow zoomIn"
+                                data-wow-delay="0.1s"
+                                src="img/feature.jpg"
+                                style="object-fit: cover"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="row g-5">
+                            <div
+                                class="col-12 wow zoomIn"
+                                data-wow-delay="0.4s"
+                            >
+                                <div
+                                    class="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
+                                    style="width: 60px; height: 60px"
+                                >
+                                    <i class="fa fa-users-cog text-white"></i>
+                                </div>
+                                <h4>Innovación constante</h4>
+                                <p class="mb-0">
+                                    Nos mantenemos al tanto de las últimas
+                                    tendencias y tecnologías en el mundo del
+                                    desarrollo de aplicaciones móviles. Desde la
+                                    realidad aumentada hasta la inteligencia
+                                    artificial, estamos constantemente
+                                    explorando nuevas formas de mejorar y
+                                    enriquecer nuestras soluciones para
+                                    brindarte lo último en innovación
+                                    tecnológica.
+                                </p>
+                            </div>
+                            <div
+                                class="col-12 wow zoomIn"
+                                data-wow-delay="0.8s"
+                            >
+                                <div
+                                    class="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
+                                    style="width: 60px; height: 60px"
+                                >
+                                    <i class="fa fa-phone-alt text-white"></i>
+                                </div>
+                                <h4>Compromiso con la excelencia</h4>
+                                <p class="mb-0">
+                                    Nos comprometemos a ofrecer resultados
+                                    excepcionales en cada proyecto que
+                                    emprendemos. Desde la fase de planificación
+                                    hasta el lanzamiento y más allá, nos
+                                    esforzamos por alcanzar la excelencia en
+                                    todo lo que hacemos. Trabajamos en estrecha
+                                    colaboración contigo para garantizar que tus
+                                    necesidades y objetivos se cumplan de manera
+                                    efectiva y eficiente.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Features Start -->
+
+        <!-- Testimonial Start -->
+        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div
+                    class="section-title text-center position-relative pb-3 mb-4 mx-auto"
+                    style="max-width: 600px"
+                >
+                    <h5 class="fw-bold text-primary text-uppercase">
+                        Testimonios de clientes
+                    </h5>
+                    <h1 class="mb-0">
+                        Qué dicen nuestros clientes de nuestros servicios
+                        digitales
+                    </h1>
+                </div>
+                <div
+                    class="owl-carousel testimonial-carousel wow fadeInUp"
+                    data-wow-delay="0.6s"
+                >
+                    <div class="testimonial-item bg-light my-4">
+                        <div
+                            class="d-flex align-items-center border-bottom pt-5 pb-4 px-5"
+                        >
+                            <img
+                                class="img-fluid rounded"
+                                src="img/testimonial-1.jpg"
+                                style="width: 60px; height: 60px"
+                            />
+                            <div class="ps-4">
+                                <h4 class="text-primary mb-1">María G.</h4>
+                            </div>
+                        </div>
+                        <div class="pt-4 pb-5 px-5">
+                            Increíble equipo de desarrollo. Nos ayudaron a
+                            llevar nuestra idea de aplicación desde la
+                            concepción hasta la realidad. Su enfoque centrado en
+                            el usuario y su atención al detalle nos
+                            impresionaron enormemente. ¡Altamente recomendado!
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light my-4">
+                        <div
+                            class="d-flex align-items-center border-bottom pt-5 pb-4 px-5"
+                        >
+                            <img
+                                class="img-fluid rounded"
+                                src="img/testimonial-2.jpg"
+                                style="width: 60px; height: 60px"
+                            />
+                            <div class="ps-4">
+                                <h4 class="text-primary mb-1">Juan S.</h4>
+                            </div>
+                        </div>
+                        <div class="pt-4 pb-5 px-5">
+                            Estoy extremadamente satisfecho con el trabajo
+                            realizado por este equipo. No solo entregaron
+                            nuestra aplicación a tiempo, sino que también
+                            superaron nuestras expectativas en términos de
+                            calidad y funcionalidad. Definitivamente volveremos
+                            a trabajar con ellos en el futuro.
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light my-4">
+                        <div
+                            class="d-flex align-items-center border-bottom pt-5 pb-4 px-5"
+                        >
+                            <img
+                                class="img-fluid rounded"
+                                src="img/testimonial-3.jpg"
+                                style="width: 60px; height: 60px"
+                            />
+                            <div class="ps-4">
+                                <h4 class="text-primary mb-1">Laura M.</h4>
+                            </div>
+                        </div>
+                        <div class="pt-4 pb-5 px-5">
+                            ¡Una experiencia increíble de principio a fin! Su
+                            equipo no solo desarrolló una aplicación que se
+                            alinea perfectamente con nuestras necesidades
+                            comerciales, sino que también brindaron un excelente
+                            soporte post-lanzamiento. Estamos ansiosos por
+                            colaborar nuevamente en futuros proyectos
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light my-4">
+                        <div
+                            class="d-flex align-items-center border-bottom pt-5 pb-4 px-5"
+                        >
+                            <img
+                                class="img-fluid rounded"
+                                src="img/testimonial-4.jpg"
+                                style="width: 60px; height: 60px"
+                            />
+                            <div class="ps-4">
+                                <h4 class="text-primary mb-1">Carlos R.</h4>
+                            </div>
+                        </div>
+                        <div class="pt-4 pb-5 px-5">
+                            ¡No podríamos estar más felices con el resultado
+                            final! Esta empresa realmente comprende el valor de
+                            la innovación y la calidad. Han demostrado ser un
+                            socio confiable y dedicado en nuestro viaje hacia el
+                            éxito en el mercado de aplicaciones móviles.
+                            ¡Gracias por todo su arduo trabajo!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+        <!-- Team Start -->
+        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div
+                    class="section-title text-center position-relative pb-3 mb-5 mx-auto"
+                    style="max-width: 600px"
+                >
+                    <h5 class="fw-bold text-primary text-uppercase">
+                        MIEMBROS DEL EQUIPO
+                    </h5>
+                    <h1 class="mb-0">
+                        Nuestro equipo está listo para ayudarle con el
+                        desarrollo de aplicaciones móviles
+                    </h1>
+                </div>
+                <div class="row g-5">
+                    <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+                        <div class="team-item bg-light rounded overflow-hidden">
+                            <div
+                                class="team-img position-relative overflow-hidden"
+                            >
+                                <img
+                                    class="img-fluid w-100"
+                                    src="img/team-1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="text-center py-4">
+                                <h4 class="text-primary">Juan García</h4>
+                                <p class="text-uppercase m-0">
+                                    Desarrollador Principal de Android
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+                        <div class="team-item bg-light rounded overflow-hidden">
+                            <div
+                                class="team-img position-relative overflow-hidden"
+                            >
+                                <img
+                                    class="img-fluid w-100"
+                                    src="img/team-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="text-center py-4">
+                                <h4 class="text-primary">Sofía Martínez</h4>
+                                <p class="text-uppercase m-0">
+                                    Desarrolladora Senior de iOS
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
+                        <div class="team-item bg-light rounded overflow-hidden">
+                            <div
+                                class="team-img position-relative overflow-hidden"
+                            >
+                                <img
+                                    class="img-fluid w-100"
+                                    src="img/team-3.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="text-center py-4">
+                                <h4 class="text-primary">Javier Martínez</h4>
+                                <p class="text-uppercase m-0">
+                                    Diseñador de Experiencia de Usuario (UX
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-light mt-5 wow fadeInUp"
+            data-wow-delay="0.1s"
+        >
+            <div class="container">
+                <div class="row gx-5">
+                    <div class="col-lg-12">
+                        <div class="row gx-5">
+                            <div class="col-lg-4 col-md-12 pt-5 mb-5">
+                                <div
+                                    class="section-title section-title-sm position-relative pb-3 mb-4"
+                                >
+                                    <h3 class="text-light mb-0">
+                                        Quiénes somos
+                                    </h3>
+                                    <p>
+                                        Descubre cómo nuestra experiencia en el
+                                        desarrollo de aplicaciones móviles puede
+                                        llevar tu proyecto al siguiente nivel.
+                                        Contáctanos hoy mismo para comenzar a
+                                        convertir tus ideas en realidad.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12 pt-5 mb-5">
+                                <div
+                                    class="section-title section-title-sm position-relative pb-3 mb-4"
+                                >
+                                    <h3 class="text-light mb-0">Contáctanos</h3>
+                                </div>
+                                <div class="d-flex mb-2">
+                                    <i
+                                        class="bi bi-geo-alt text-primary me-2"
+                                    ></i>
+                                    <p class="mb-0">
+                                        4XH2+PPX, la na parroquia Miguel peña
+                                        Valencia, Calle, Valencia 2001,
+                                        Carabobo, Venesuela
+                                    </p>
+                                </div>
+                                <div class="d-flex mb-2">
+                                    <i
+                                        class="bi bi-envelope-open text-primary me-2"
+                                    ></i>
+                                    <p class="mb-0">creador_juego@gmail.com</p>
+                                </div>
+                                <div class="d-flex mb-2">
+                                    <i
+                                        class="bi bi-telephone text-primary me-2"
+                                    ></i>
+                                    <p class="mb-0">+584126908045</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                                <div
+                                    class="section-title section-title-sm position-relative pb-3 mb-4"
+                                >
+                                    <h3 class="text-light mb-0">
+                                        Enlaces rápidos
+                                    </h3>
+                                </div>
+                                <div
+                                    class="link-animated d-flex flex-column justify-content-start"
+                                >
+                                    <a class="text-light mb-2" href="index.html"
+                                        ><i
+                                            class="bi bi-arrow-right text-primary me-2"
+                                        ></i
+                                        >Inicio</a
+                                    >
+                                    <a class="text-light mb-2" href="about.html"
+                                        ><i
+                                            class="bi bi-arrow-right text-primary me-2"
+                                        ></i
+                                        >Acerca de</a
+                                    >
+                                    <a
+                                        class="text-light mb-2"
+                                        href="service.html"
+                                        ><i
+                                            class="bi bi-arrow-right text-primary me-2"
+                                        ></i
+                                        >Servicios</a
+                                    >
+                                    <a
+                                        class="text-light mb-2"
+                                        href="contact.html"
+                                        ><i
+                                            class="bi bi-arrow-right text-primary me-2"
+                                        ></i
+                                        >Contacto</a
+                                    >
+                                    <a
+                                        class="text-light mb-2"
+                                        href="privacy-policy.html"
+                                        ><i
+                                            class="bi bi-arrow-right text-primary me-2"
+                                        ></i
+                                        >Política de privacidad</a
+                                    >
+                                    <a
+                                        class="text-light"
+                                        href="terms-of-use.html"
+                                        ><i
+                                            class="bi bi-arrow-right text-primary me-2"
+                                        ></i
+                                        >Términos de uso</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">
+                    Consentimiento para el uso de cookies
+                </h2>
+            </div>
+            <div class="data">
+                <p>
+                    Este sitio web utiliza cookies para proporcionarle una
+                    experiencia de navegación más relevante y de mayor calidad
+                    en el sitio.
+                    <a href="#">Saber más...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Aceptar</button>
+                <button class="cookie-button" id="declineBtn">Rechazar</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
